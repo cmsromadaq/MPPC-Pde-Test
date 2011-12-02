@@ -1,7 +1,7 @@
 #-*-makefile-*-
 binaries = spectra
 libPath = /opt/caen/c111c/crate_lib/crate_lib
-libPath_lecroy = /home/utfsm/rimsky/acquisition/Lecroy/2249A_intento_de_algo
+libPath_lecroy = /home/utfsm/rimsky/acquisition/Lecroy/2249A
 source = espectro.c $(libPath)/crate_lib.c $(libPath_lecroy)/lecroy_2249A.c #cambie el nombre de archivo
 obj = $(source:.c=.o)
 
