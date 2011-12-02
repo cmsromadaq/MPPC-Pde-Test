@@ -25,6 +25,7 @@ lecroy_2249A.o: $(libPath_lecroy)/lecroy_2249A.c
 	$(CC) -c -o $@ $^
 	
 clean:
+	@echo "Borrando..."
 	rm -f *.o core 
 
 rootprogram: rootSpectrum.o
